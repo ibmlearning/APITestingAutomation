@@ -106,7 +106,28 @@
 			"name": "Delete Request",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{        \r\n    \"id\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
 			},
 			"response": []
 		},
